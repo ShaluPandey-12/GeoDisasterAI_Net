@@ -1,0 +1,50 @@
+# ============================================================
+#  GeoDisasterAINet — Python Dependencies
+#  Python version : 3.10.9
+#  Anaconda       : 2023.03-1
+#  Install URL    : https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Windows-x86_64.exe
+#
+#  ⚠️  Recommended: install packages ONE BY ONE to avoid conflicts
+#      pip install <package>==<version>
+# ============================================================
+
+# --- Deep Learning ---
+tensorflow==2.10.1
+keras==2.10.0
+protobuf==3.20.3
+
+# --- Data & ML ---
+numpy==1.24.3
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.0.2
+xgboost==2.1.2
+imbalanced-learn==0.10.1
+joblib==1.4.2
+
+# --- Explainability (XAI) ---
+lime==0.2.0.1
+shap==0.46.0
+
+# --- Visualization ---
+matplotlib==3.7.0
+
+# --- Web Framework ---
+Flask==2.2.2
+Werkzeug==2.2.2
+jinja2==3.1.2
+MarkupSafe==2.1.1
+itsdangerous==2.0.1
+
+# --- Image Processing ---
+opencv-python>=4.7.0
+
+# --- Optional (used in notebooks only) ---
+lightgbm==4.5.0
+catboost==1.2.7
+
+# ============================================================
+#  Jupyter Notebook (if not working):
+#    pip install --upgrade jupyterhub
+#    pip install --upgrade --user nbconvert
+# ============================================================
