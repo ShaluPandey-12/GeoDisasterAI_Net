@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>GeoDisasterAINet - Result</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 3 CSS -->
+  <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Site Theme CSS -->
+  <link href="../static/css/main.css" rel="stylesheet">
+  <link href="../static/css/style.css" rel="stylesheet">
+  <link href="../static/css/responsive.css" rel="stylesheet">
+  <link href="../static/css/result.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <div id="wrap">
+
+    <!-- MAIN RESULT SECTION -->
+    <section class="blog blog-post padding-top-100 padding-bottom-100 center-section">
+      <div class="container result-panel">
+
+        <!-- Centered Title -->
+        <div class="result-header">
+          <h3>Prediction Result</h3>
+          <small>Model output and explanation images</small>
+        </div>
+
+        <!-- Prediction and confidence in centered Bootstrap grid -->
+        <div class="row disaster-{{ prediction.lower() }}">
+          
+          <!-- Predicted Class -->
+          <div class="col-md-6">
+            <div class="meta-card">
+              <div class="d-flex">
+                <i class="fa fa-flag"></i>
+                <div>
+                  <div class="meta-label">Predicted Class</div>
+                  <div class="prediction-value">{{ prediction }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Confidence Score -->
+          <div class="col-md-6">
+            <div class="meta-card">
+              <div class="d-flex">
+                <i class="fa fa-bar-chart"></i>
+                <div style="width:100%;">
+                  <div class="meta-label">Confidence Score</div>
+                  <div class="confidence-value">{{ '%.2f'|format(confidence * 100) }}%</div>
+                  <!-- Progress Bar -->
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-success" 
+                         role="progressbar"
+                         aria-valuenow="{{ confidence * 100 }}"
+                         aria-valuemin="0" 
+                         aria-valuemax="100"
+                         style="width: {{ confidence * 100 }}%;">
+                      {{ '%.0f'|format(confidence * 100) }}%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Safety Measures Section -->
+        <div class="safety-measures">
+          <div class="safety-card">
+            <h4>
+              <i class="fa fa-shield"></i>
+              Safety Measures & Recommended Actions
+            </h4>
+            <ul class="safety-list">
+              {% if prediction.upper() == 'CYCLONE' %}
+                <li class="urgent">Evacuate immediately if authorities issue evacuation orders</li>
+                <li class="urgent">Stay indoors and away from windows, doors, and exterior walls</li>
+                <li class="important">Secure or bring indoors all outdoor furniture, decorations, and loose items</li>
+                <li class="important">Turn off utilities (gas, water, electricity) if instructed to do so</li>
+                <li>Have an emergency kit ready with food, water, medications, and important documents</li>
+                <li>Stay informed through weather radio or local news for updates</li>
+                <li>Avoid driving during the cyclone; if caught outside, seek shelter immediately</li>
+                <li>After the cyclone passes, be cautious of downed power lines and debris</li>
+              {% elif prediction.upper() == 'EARTHQUAKE' %}
+                <li class="urgent">Drop, Cover, and Hold On - get under a sturdy table or desk</li>
+                <li class="urgent">Stay away from windows, glass, and heavy objects that may fall</li>
+                <li class="important">If indoors, stay inside until shaking stops and it's safe to exit</li>
+                <li class="important">If outdoors, move to an open area away from buildings, trees, and power lines</li>
+                <li>If in a vehicle, pull over to a safe location and stay inside</li>
+                <li>After shaking stops, check for injuries and damage before moving</li>
+                <li>Be prepared for aftershocks which can occur minutes, hours, or days later</li>
+                <li>Have an emergency plan and supplies ready including first aid kit and water</li>
+              {% elif prediction.upper() == 'FLOOD' %}
+                <li class="urgent">Move to higher ground immediately if flooding is imminent</li>
+                <li class="urgent">Never walk or drive through floodwaters - just 6 inches can knock you down</li>
+                <li class="important">Evacuate if authorities recommend or order it</li>
+                <li class="important">Turn off electricity at the main breaker if water enters your home</li>
+                <li>Avoid contact with floodwater as it may be contaminated or electrically charged</li>
+                <li>Stay away from downed power lines and report them to authorities</li>
+                <li>Keep important documents and valuables in waterproof containers</li>
+                <li>Monitor local news and weather updates for flood warnings</li>
+                <li>After flooding, return home only when authorities say it's safe</li>
+              {% elif prediction.upper() == 'WILDFIRE' %}
+                <li class="urgent">Evacuate immediately if ordered by authorities - do not delay</li>
+                <li class="urgent">Close all windows, doors, and vents to prevent smoke and embers from entering</li>
+                <li class="important">Wear protective clothing and a mask to reduce smoke inhalation</li>
+                <li class="important">Create defensible space around your property by clearing flammable materials</li>
+                <li>Have an evacuation plan and multiple escape routes prepared</li>
+                <li>Keep important documents, medications, and emergency supplies ready to go</li>
+                <li>Stay informed through local emergency services and weather updates</li>
+                <li>Avoid activities that could spark fires (campfires, machinery, smoking outdoors)</li>
+                <li>If trapped, find a body of water or cleared area and lie low to the ground</li>
+              {% else %}
+                <li>Follow local emergency management guidelines</li>
+                <li>Stay informed through official channels</li>
+                <li>Have an emergency plan and supplies ready</li>
+                <li>Evacuate if authorities recommend doing so</li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+
+        <!-- Output Images -->
+        <div id="analysis-section" class="row result-grid">
+
+          <div class="col-md-6">
+            <div class="card">
+              <h5>Original Image</h5>
+              <img src="{{ original }}" alt="Original Image">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <h5>Grad-CAM Heatmap</h5>
+              <img src="{{ heatmap }}" alt="Grad-CAM Heatmap">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <h5>Grad-CAM Overlay</h5>
+              <img src="{{ gradcam }}" alt="Grad-CAM Overlay">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <h5>LIME Explanation</h5>
+              <img src="{{ lime }}" alt="LIME Explanation">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+          <a href="/home" class="btn btn-primary">
+            <i class="fa fa-repeat"></i> Predict Another Image
+          </a>
+          <a href="/graphs" class="btn btn-secondary">
+            <i class="fa fa-line-chart"></i> View Analysis
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="rights text-center">
+      <p>GeoDisasterAINet © 2025 All Rights Reserved</p>
+    </div>
+
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="../static/js/jquery-1.11.0.min.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/own-menu.js"></script>
+  <script src="../static/js/jquery.prettyPhoto.js"></script>
+  <script src="../static/js/owl.carousel.min.js"></script>
+  <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>
