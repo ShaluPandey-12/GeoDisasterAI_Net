@@ -1,0 +1,625 @@
+@media(min-width:1400px) and (max-width:1920px) {
+}
+@media(min-width:1200px) and (max-width:1400px) {
+.latest-work .col-4 .item.filter-home {
+	width: 100%;
+}
+.latest-work .col-4 .item.filter-home li {
+	display: inline-block;
+	width: auto;
+}
+.latest-work .col-4 .item.filter-home li a {
+	padding: 0 10px;
+	margin-top: -2px;
+}
+.latest-work .position-center-center {
+	width: 100%;
+	text-align: center;
+}
+.latest-work .filter {
+	min-height: auto;
+	height: 80px;
+}
+}
+@media(max-width:1024px) {
+}
+@media(min-width:992px) and (max-width:1199px) {
+header {
+	margin-top: 40px;
+}
+.top-info .personal-info li {
+	padding: 15px 10px;
+}
+header .search-nav ul.dropdown {
+	width: 100% !important;
+}
+.header-style-2.header-style-3 .logo {
+	margin: 20px 0;
+	width: 100%;
+	text-align: center;
+}
+.header-style-2.header-style-3 nav {
+	margin-top: 20px;
+}
+.header-style-2.header-style-3 nav {
+	width: 100%;
+}
+.promo-block .promo-text {
+	padding-right: 20px;
+}
+.contact.style-2 .contact-right {
+	padding-right: 15px;
+	padding-left: 15px !important;
+}
+.services {
+	padding-left: 0px;
+}
+.latest-work .col-4 .item.filter-home {
+	width: 100%;
+}
+.latest-work .col-4 .item.filter-home li {
+	display: inline-block;
+	width: auto;
+}
+.latest-work .col-4 .item.filter-home li a {
+	padding: 0 10px;
+	margin-top: -2px;
+}
+.latest-work .position-center-center {
+	width: 100%;
+	text-align: center;
+}
+.latest-work .filter {
+	min-height: auto;
+	height: 80px;
+}
+.offer-services li {
+	width: 33.333%;
+}
+.offer-services li .position-center-center {
+	width: 100%;
+}
+.counter ul li {
+	width: 50%;
+	margin-bottom: 30px;
+}
+}
+@media(min-width:768px) and (max-width:991px) {
+.top-right ul li {
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+header {
+	margin-top: 0px;
+}
+.offer-services li {
+	width: 50%;
+}
+.offer-services li .position-center-center {
+	width: 100%;
+}
+.ownmenu ul.dropdown, .ownmenu ul.dropdown li ul.dropdown {
+	width: 250px !important;
+}
+.ownmenu ul.dropdown, .ownmenu ul.dropdown li ul.dropdown {
+	padding: 20px;
+}
+header .ownmenu ul.dropdown {
+	padding: 0px;
+}
+header nav .ownmenu li {
+	float: left;
+	margin: 0px 0px;
+}
+header .quotes a {
+}
+header .navbar li a {
+}
+.procsss {
+	position: relative;
+	margin-top: 0px;
+	top: 0px;
+}
+.procsss .container {
+	width: 100%;
+}
+.procsss ul {
+	padding: 30px 0px;
+}
+.call-out {
+	text-align: center;
+}
+.call-out h4 {
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.heading {
+	width: 100%;
+}
+.what-we-do .rotatebox {
+	min-height: auto;
+	line-height: normal;
+}
+.services .tab-content {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.emergency {
+	text-align: center;
+}
+.emergency .text-right {
+	text-align: center;
+}
+.news .post-detail article {
+	margin-bottom: 30px;
+}
+.latest-work .col-4 .item.filter-home {
+	width: 100%;
+}
+.latest-work .col-4 .item.filter-home li {
+	display: inline-block;
+	width: auto;
+}
+.latest-work .col-4 .item.filter-home li a {
+	padding: 0 10px;
+	margin-top: -2px;
+}
+.latest-work .position-center-center {
+	width: 100%;
+	text-align: center;
+}
+.latest-work .col-4 .item {
+	width: 33.3333%;
+}
+.team ul li {
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+.clients ul li {
+	float: left;
+	width: 33.3333%;
+	padding: 0px;
+}
+footer h4 {
+	display: inline-block;
+	width: 100%;
+	margin: 50px 0;
+	margin-bottom: 20px;
+}
+.footer-works>.col-md-3 {
+	float: left;
+	width: 33.3333%;
+	margin: 0px;
+	padding: 10px;
+}
+.latest-work .filter {
+	min-height: 80px;
+	display: inline-block;
+	width: 100%;
+}
+.services .nav-tabs {
+	display: inline-block;
+	width: 100%;
+}
+.offer-services li {
+	width: 33.333%;
+}
+.offer-services li .position-center-center {
+	width: 100%;
+}
+header .container {
+	width: 100%;
+}
+header .search-nav ul.dropdown {
+	width: 100% !important;
+}
+header .ownmenu .look-book .nav-img {
+	width: 70px;
+	margin-right: 10px;
+}
+header .ownmenu .look-book .media-heading {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+header .ownmenu li > .megamenu li a {
+	padding: 5px 0
+}
+header .ownmenu .look-book p {
+}
+header .ownmenu > li > .megamenu.full-width {
+	padding: 30px;
+}
+header .ownmenu .look-book .media-body a {
+	padding: 5px 0 0 0px;
+}
+header .ownmenu > li > .megamenu.full-width .nav-post .col-sm-3 {
+	width: 50%;
+}
+header .ownmenu .megamenu h6 {
+	margin-top: 20px;
+}
+header .ownmenu ul.dropdown li a {
+	letter-spacing: 1px;
+}
+.what-we-do .rotatebox {
+	width: 50%;
+	float: left;
+}
+.what-we-do .rotatebox:nth-child(3) {
+	width: 100%;
+}
+.services {
+	padding-left: 0px;
+}
+.team .social li {
+	width: auto;
+}
+.media.padding-right-100 {
+	padding-right: 0px !important;
+}
+.testi .owl-nav {
+	left: 50%;
+	bottom: -40px;
+}
+.tab-pane.text-right {
+	text-align: center;
+}
+.services .nav-tabs {
+	text-align: center;
+}
+.services .nav-tabs li {
+	float: none;
+	display: inline-block;
+	text-align: left;
+}
+.portfolio.style-2 li.item {
+	width: 50% !important;
+}
+.counter ul li {
+	width: 50%;
+	margin-bottom: 30px;
+}
+header {
+	padding: 0px;
+}
+header .logo {
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+	border: none;
+}
+header .navbar {
+	width: 100%;
+}
+.top-bar {
+	width: 100%;
+}
+header .quotes a {
+	margin-right: 0px;
+}
+.top-info {
+	display: none;
+}
+.testi-name {
+	width: 70%;
+}
+.latest-work .filter {
+	top: 0px;
+	position: relative;
+	margin-bottom: 20px;
+	min-height: auto;
+}
+.members li {
+	width: 50%;
+}
+}
+@media(max-width:767px) {
+.services {
+	padding-left: 0px;
+}
+.news .post-detail article {
+	margin-bottom: 30px;
+}
+.offer-services li {
+	width: 50%;
+}
+.offer-services li .position-center-center {
+	width: 100%;
+}
+.tab-pane.text-right {
+	text-align: center;
+}
+.media.padding-right-100 {
+	padding-right: 0px !important;
+}
+.top-bar {
+	margin: 0px;
+	padding: 0px;
+}
+.top-right ul {
+	text-align: center;
+}
+.top-right ul li .media {
+	text-align: left;
+}
+header .navbar li a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top-right ul li {
+	float: none;
+}
+header .quotes {
+	width: 100%;
+}
+header .quotes a {
+	width: 100%;
+}
+header .navbar li {
+	margin: 0px;
+}
+.top-right {
+	width: 100%;
+}
+.top-right ul {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.testi .owl-nav {
+	left: 50%;
+	bottom: -40px;
+}
+.sub-bnr h4 {
+	margin-top: 0px;
+}
+.sub-bnr {
+	min-height: 350px
+}
+#tabs {
+	margin-bottom: 30px;
+}
+.ownmenu {
+	width: 100%;
+}
+.ownmenu > li.showhide span.icon {
+	padding: 0px;
+	margin: 0px;
+}
+header nav li a {
+}
+header {
+	margin-top: 0px;
+	padding-top: 20px;
+	background: rgba(0,0,0,0.8);
+}
+.is-sticky .sticky {
+	position: relative !important;
+}
+header .logo {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+header nav {
+	float: none;
+	width: 100%;
+}
+header nav .ownmenu .indicator {
+	display: block;
+}
+header nav li a {
+	display: inline-block;
+	width: 100%;
+	float: none;
+}
+.ownmenu > li.showhide span {
+	line-height: 50px;
+	display: inline-block;
+	width: 100%;
+}
+.ownmenu > li.showhide {
+	text-align: center;
+	color: #252525;
+	font-size: 20px;
+}
+.ownmenu > li.showhide span.title {
+	margin: 0px;
+}
+.ownmenu > li > a {
+	padding: 10px 0;
+	text-align: left;
+}
+.ownmenu .indicator {
+	display: block;
+}
+header .social {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+header {
+	position: relative;
+}
+.procsss {
+	position: relative;
+	margin-top: 0px;
+	top: 0px;
+	background: rgba(0,0,0,0.8);
+}
+.what-we-do .rotatebox {
+	width: 50%;
+	float: left;
+}
+.what-we-do .rotatebox:nth-child(3) {
+	width: 100%;
+}
+.procsss ul {
+	padding: 30px 0px;
+}
+.procsss .media {
+	margin-bottom: 30px;
+}
+.call-out {
+	text-align: center;
+}
+.call-out h4 {
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.heading {
+	width: 100%;
+}
+.what-we-do .rotatebox {
+	min-height: auto;
+	line-height: normal;
+}
+.services .tab-content {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.emergency {
+	text-align: center;
+}
+.emergency .text-right {
+	text-align: center;
+}
+.latest-work .col-4 .item.filter-home {
+	width: 100%;
+}
+.latest-work .col-4 .item.filter-home li {
+	display: inline-block;
+	width: auto;
+}
+.latest-work .col-4 .item.filter-home li a {
+	padding: 0 10px;
+	margin-top: -2px;
+}
+.latest-work .position-center-center {
+	width: 100%;
+	text-align: center;
+}
+.latest-work .col-4 .item {
+	width: 33.3333%;
+}
+.team ul li {
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+.clients ul li {
+	float: left;
+	width: 33.3333%;
+	padding: 0px;
+}
+footer h4 {
+	display: inline-block;
+	width: 100%;
+	margin: 50px 0;
+	margin-bottom: 20px;
+}
+.footer-works>.col-md-3 {
+	float: left;
+	width: 33.3333%;
+	margin: 0px;
+	padding: 10px;
+}
+.latest-work .filter {
+	min-height: 80px;
+	display: inline-block;
+	width: 100%;
+}
+.services .nav-tabs {
+	display: inline-block;
+	width: 100%;
+}
+.latest-work .col-4 .item {
+	width: 50%;
+}
+.gal-item img {
+	width: 100%;
+}
+.latest-work .filter {
+	top: 0px;
+	position: relative;
+	margin-bottom: 20px;
+	min-height: auto;
+}
+.portfolio.style-2 li.item {
+	width: 50% !important;
+}
+header {
+	padding: 0px;
+}
+header .logo {
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+	border: none;
+}
+header .navbar {
+	width: 100%;
+}
+.top-bar {
+	width: 100%;
+}
+header .quotes a {
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+.top-info {
+	display: none;
+}
+.heading p {
+	width: 100%;
+}
+.members li {
+	width: 50%;
+	float: left;
+}
+}
+@media (max-width:640px) {
+}
+@media(max-width:540px) {
+.offer-services li {
+	width: 100%;
+}
+.portfolio.style-2 li.item {
+	width: 100%;
+}
+.offer-services li .position-center-center {
+	width: 100%;
+}
+.services .nav-tabs li .img-responsive {
+	height: 180px;
+}
+.latest-work .col-4 .item {
+	width: 100%;
+}
+.team ul li {
+	width: 100%;
+}
+.team ul li {
+	width: 100%;
+}
+.team .social li {
+	width: auto;
+}
+}
+@media(max-width:440px) {
+}
+@media(max-width:320px) {
+.members li {
+	width: 100%;
+	float: left;
+}
+}
+@media(max-height: 700px) {
+}
