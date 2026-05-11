@@ -1,4 +1,7 @@
+
 # 🌍 GeoDisasterAINet
+## 🚀 Live Demo
+👉 [Click here to try the app](https://sherni12-geodisasterainet.hf.space/)
 
 <div align="center">
 
